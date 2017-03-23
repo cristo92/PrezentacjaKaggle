@@ -58,7 +58,6 @@ Niestety, nie możemy wykorzystać całego potencjału spektrogramu, gdyż:
 * Power-in-Band Spectral Entropy
 * Higuchi fractal dimension
 * Petrosian fractal dimension
-* Hurst exponent 
 * Odsetek zer (błędów) w danych
 
 #HSLIDE
@@ -110,12 +109,6 @@ A ![hfd2](hfd2.png) to liczba zmian znaku pochodnej.
 
 #HSLIDE
 
-## Hurst exponent
-
-Używany często w analizie sygnałów giełdowych do testowania stacjonarności.
-
-#HSLIDE
-
 ## Klasyfikatory
 
 * SVM
@@ -158,3 +151,24 @@ Dziury w danych. Metody radzenia sobie:
 * model auto-regresji
 * model ARMA (auto-regression moving average)
 
+#HSLIDE
+
+## Auto-regresja 
+
+![ar](ar.png)
+
+#HSLIDE
+
+## Moving average
+
+![ma](ma.png)
+
+#HSLIDE
+
+## ARMA
+
+![arma](arma.png)
+
+#HSLIDE
+
+#Dziękuję za uwagę :)
