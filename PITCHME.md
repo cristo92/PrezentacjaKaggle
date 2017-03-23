@@ -78,7 +78,7 @@ Niestety, nie możemy wykorzystać całego potencjału spektrogramu, gdyż:
 
 ## Power-in-Band Spectral Entropy
 
-Niech ![entropy](entropy1.png) będzie widmem sygnału.
+Niech <img src=entropy1.png> będzie widmem sygnału.
 
 ![entropy2](entropy2.png)
 
@@ -90,6 +90,18 @@ Niech ![entropy](entropy1.png) będzie widmem sygnału.
 
 ## Higuchi fractal dimension
 
+![higuchi](higuchi.png)
+
+![higuchi2](higuchi2.png)
+
+Wymiarem Higuchi'ego jest nachylenie prostej (tangens), która najlepiej przybliża (ze względu na błąd średnio kwadratowy) kolejne wartości funkcji: 
+
+![higuchi3](higuchi3.png)
+
+#HSLIDE
+
+## Petrosian fractal dimension
+
 ![hfd](hfd.png)
 
 Gdzie n długość wektora, dla którego jest liczony wymiar.
@@ -98,11 +110,9 @@ A ![hfd2](hfd2.png) to liczba zmian znaku pochodnej.
 
 #HSLIDE
 
-## Petrosian fractal dimension
-
-#HSLIDE
-
 ## Hurst exponent
+
+Używany często w analizie sygnałów giełdowych do testowania stacjonarności.
 
 #HSLIDE
 
