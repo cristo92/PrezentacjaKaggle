@@ -45,7 +45,7 @@ Konkurs na Kaggle: [https://www.kaggle.com/c/melbourne-university-seizure-predic
 
 Niestety, nie możemy wykorzystać całego potencjału spektrogramu, gdyż:
 
-* Widmo, to wektro o rozmwiarze 120k
+* Widmo, to wektor o rozmwiarze 120k
 * Więc spektrogram to macierz 240k * 120k ~ 26GB
 
 #HSLIDE
@@ -56,7 +56,6 @@ Niestety, nie możemy wykorzystać całego potencjału spektrogramu, gdyż:
 * Macierz korelacji sygnałów i jej wektory własne
 * Macierz korelacji widma (współczynników FFT) i jej wektory własne
 * Power-in-Band Spectral Entropy
-* Phase Syncrony
 * Higuchi fractal dimension
 * Petrosian fractal dimension
 * Hurst exponent 
@@ -67,29 +66,35 @@ Niestety, nie możemy wykorzystać całego potencjału spektrogramu, gdyż:
 ## Wsp. skośności (ang. skewness)
 <img src="skewness.gif">
 
-
+![skewness2](skewness2.png)
 
 #HSLIDE
 
 ## Kurtoza
 
+![kurtosis](kurtosis.png)
+
 #HSLIDE
 
 ## Power-in-Band Spectral Entropy
 
-Niech [entropy](entropy1.png) będzie widmem sygnału.
+Niech ![entropy](entropy1.png) będzie widmem sygnału.
 
 ![entropy2](entropy2.png)
+
 ![entropy3](entropy3.png)
+
 ![entropy4](entropy4.png)
 
 #HSLIDE
 
-## Phase Syncrony
-
-#HSLIDE
-
 ## Higuchi fractal dimension
+
+![hfd](hfd.png)
+
+Gdzie n długość wektora, dla którego jest liczony wymiar.
+
+A ![hfd2](hfd2.png) to liczba zmian znaku pochodnej.
 
 #HSLIDE
 
@@ -130,6 +135,8 @@ Niech [entropy](entropy1.png) będzie widmem sygnału.
 ## Główne problemy nr 1
 
 Cross-validacja - dane testowe zostały wygenerowane kilkanaście miesięcy po danych treningowych, więc istotnie różniły się, dlatego żadne metody cross-validacji nie były miarodajne.
+
+Brak dobrej cross-validacji narażał nas na overfitting. Jednym z wyjść z tej sytuacji był ensambling.
 
 #HSLIDE
 
