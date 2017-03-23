@@ -105,6 +105,9 @@ Niestety, nie możemy wykorzystać całego potencjału spektrogramu, gdyż:
 
 ## Logistic Regression
 
+![lr](lr_cost.png)
+![lr2](lr_grad.png)
+
 #HSLIDE
 
 ## Support Vector Machine
