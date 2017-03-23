@@ -77,6 +77,12 @@ Niestety, nie możemy wykorzystać całego potencjału spektrogramu, gdyż:
 
 ## Power-in-Band Spectral Entropy
 
+Niech [entropy](entropy1.png) będzie widmem sygnału.
+
+![entropy2](entropy2.png)
+![entropy3](entropy3.png)
+![entropy4](entropy4.png)
+
 #HSLIDE
 
 ## Phase Syncrony
